@@ -1,0 +1,20 @@
+[project]
+name = "langgraph-recruitment-assistant"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "langchain-google-genai>=4.4.2",
+    "langgraph>=1.2.15",
+    "pydantic>=2.14.1",
+    "pypdf>=6.20.1",
+    "python-dotenv>=1.2.4",
+    "streamlit>=1.66.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+    "reportlab>=5.0.1",
+]
